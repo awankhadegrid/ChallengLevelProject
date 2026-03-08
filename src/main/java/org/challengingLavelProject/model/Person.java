@@ -2,6 +2,11 @@ package org.challengingLavelProject.model;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Represents a personal contact in the phone book.
+ * A Person contact contains personal information such as
+ * name, surname, birth date, gender, and phone number.
+ */
 public class Person extends Contact {
 
     private String name = "";

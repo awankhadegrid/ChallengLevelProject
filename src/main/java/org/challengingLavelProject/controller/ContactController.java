@@ -8,6 +8,13 @@ import org.challengingLavelProject.service.ContactService;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ *Controller class responsible for handling user interaction
+ * and application flow.
+ * This class manages the command-line interface of the
+ * phone book application.
+ */
+
 public class ContactController {
 
     private final ContactService service;

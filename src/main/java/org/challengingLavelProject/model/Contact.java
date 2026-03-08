@@ -3,6 +3,12 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.List;
 
+/**
+ * Abstract base class representing a generic contact in the phone book.
+ * This class defines the common properties and behaviors shared by
+ *   all contact types
+ */
+
 public abstract class Contact implements Serializable {
 
     private static final long serialVersionUID = 1L;

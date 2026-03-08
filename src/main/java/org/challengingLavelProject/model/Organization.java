@@ -3,6 +3,12 @@ package org.challengingLavelProject.model;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Represents an organization contact in the phone book.
+ * An Organization contact contains information related to
+ * a company or institution such as organization name, address,
+ * and phone number.
+ */
 public class Organization extends Contact {
 
     private String name = "";

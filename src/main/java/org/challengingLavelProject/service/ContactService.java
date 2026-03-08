@@ -7,6 +7,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
+/**
+ * Service layer responsible for handling business logic related
+ * to contacts.
+ * This class acts as an intermediary between the controller
+ * and repository layers.
+ */
 public class ContactService {
 
     private final PhoneBookRepository repository;

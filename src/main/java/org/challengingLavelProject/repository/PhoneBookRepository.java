@@ -6,6 +6,13 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Repository class responsible for managing the storage and
+ * retrieval of contacts.
+ * This class acts as the data access layer of the application.
+ * It stores contacts in memory and persists them to a file using
+ * Java object serialization.
+ */
 public class PhoneBookRepository {
 
     private List<Contact> contacts = new ArrayList<>();
